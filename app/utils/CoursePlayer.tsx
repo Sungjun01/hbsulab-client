@@ -15,7 +15,7 @@ const CoursePlayer: FC<Props> = ({ videoUrl }) => {
   useEffect(() => {
     axios
       .post(
-        "https://serverlms-fragrant-firefly-2521.fly.dev/api/v1/getVdoCipherOTP",
+        "https://hbsulab-e694aa688e34.herokuapp.com/api/v1/getVdoCipherOTP",
         {
           videoId: videoUrl,
         }
